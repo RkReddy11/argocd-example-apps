@@ -15,7 +15,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: ashalanen/awesome-ascii-art
+      - image: jenkinsforthewin/quote-generator
         name: guestbook-ui
         ports:
         - containerPort: 80
