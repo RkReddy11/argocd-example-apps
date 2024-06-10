@@ -15,7 +15,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: httpcats/http.cat
+      - image: ashalanen/awesome-ascii-art
         name: guestbook-ui
         ports:
         - containerPort: 80
