@@ -15,7 +15,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: nginx:1.27.0
+      - image: pengbai/docker-supermario
         name: guestbook-ui
         ports:
         - containerPort: 80
